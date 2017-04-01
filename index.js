@@ -1,8 +1,8 @@
 'use strict';
 
-var pify = require('pify');
+const pify = require('pify');
 
-var f = function (cb) {
+const f = function (cb) {
 	cb(null, (process.env.DESKTOP_SESSION === 'sugar'));
 };
 
