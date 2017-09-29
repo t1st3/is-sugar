@@ -1,5 +1,7 @@
 # is-sugar [![Build Status Travis](https://travis-ci.org/t1st3/is-sugar.svg?branch=master)](https://travis-ci.org/t1st3/is-sugar)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/t1st3/is-sugar.svg)](https://greenkeeper.io/)
+
 > Check if the current session runs [Sugar desktop](https://www.sugarlabs.org/).
 
 
