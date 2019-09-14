@@ -1,9 +1,11 @@
 'use strict';
 
-const pify = require('pify');
+module.exports = new Promise((resolve, reject) => {
+	if (process.env.DESKTOP_SESSION === 'sugar') {
+		resolve(true);
+	} else {
+		resolve(false);
+	}
 
-const f = function (cb) {
-	cb(null, (process.env.DESKTOP_SESSION === 'sugar'));
-};
-
-module.exports = pify(f);
+	reject(new Error());
+});

@@ -15,7 +15,7 @@ $ npm install --save is-sugar
 ```js
 const isSugar = require('is-sugar');
 
-isSugar().then(data => {
+isSugar.then(data => {
   console.log(data);
   //=> true or false
 });
